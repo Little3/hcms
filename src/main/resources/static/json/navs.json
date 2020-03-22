@@ -1,0 +1,156 @@
+{
+	"admin": [
+		{
+			"title": "个人中心",
+			"icon": "icon-text",
+			"href": "",
+			"spread": false,
+			"children": [
+				{
+					"title": "个人信息",
+					"href": "userInfo",
+					"spread": false
+				},
+				{
+					"title": "修改信息",
+					"href": "updateInfo",
+					"spread": false
+				}
+			]
+		},
+		
+		{
+			"title": "会员管理",
+			"href": "",
+			"spread": false,
+			"children": [
+				{
+					"title": "会员卡管理",
+					"href": "vipCardManagement",
+					"spread": false
+				},
+				{
+					"title": "普通用户管理",
+					"href": "usersManagement",
+					"spread": false
+				},	{
+					"title": "会员用户管理",
+					"href": "vipUsersManagement",
+					"spread": false
+				},
+				{
+					"title": "会员卡续费",
+					"href": "vipCardRecharge",
+					"spread": false
+				},
+				{
+					"title": "会员账户充值",
+					"href": "vipRecharge",
+					"spread": false
+				}
+			]
+		},
+		{
+			"title": "教练管理",
+			"href": "coachMamagement",
+			"spread": false
+		},
+		{
+			"title": "健身项目管理",
+			"href": "",
+			"spread": false,
+			"children": [
+				{
+					"title": "项目查看",
+					"href": "projectView",
+					"spread": false
+				},
+				{
+					"title": "添加健身项目",
+					"href": "addProject",
+					"spread": false
+				}
+			]
+		},
+		{
+			"title": "用户消费记录",
+			"href": "vipConsumeRecord",
+			"spread": true
+		},
+		{
+			"title": "通知管理",
+			"href": "newsManagement",
+			"spread": true
+		}
+	],
+	"vip": [
+		{
+			"title": "个人中心",
+			"icon": "icon-text",
+			"href": "",
+			"spread": false,
+			"children": [
+				{
+					"title": "个人信息",
+					"href": "userInfo",
+					"spread": false
+				},
+				{
+					"title": "修改信息",
+					"href": "updateInfo",
+					"spread": false
+				}
+			]
+		},
+		
+		{
+			"title": "教练查看",
+			"href": "selectCoach",
+			"spread": true
+
+		},
+		{
+			"title": "健身项目查询",
+			"href": "selectProject",
+			"spread": true
+
+		},
+		{
+			"title": "会员卡管理",
+			"href": "",
+			"spread": false,
+			"children": [
+				{
+					"title": "会员卡信息",
+					"href": "vipCard",
+					"spread": false
+				},
+				{
+					"title": "会员卡续费",
+					"href": "rechange",
+					"spread": false
+				},
+				{
+					"title": "账户余额查询",
+					"href": "account",
+					"spread": false
+				}
+
+			]
+		},
+		{
+			"title": "消费记录",
+			"href": "consumeRecord",
+			"spread": true
+
+		},
+		{
+			"title": "通知信息",
+			"href": "information",
+			"spread": true
+
+		}
+	]
+}
+
+
